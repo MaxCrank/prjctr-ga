@@ -21,6 +21,7 @@ namespace GoogleAnalyticsPushApp
             services.AddHttpClient<GoogleAnalyticsService>("ga", client =>
             {
                 client.BaseAddress = new Uri(Configuration["GaUri"]);
+                client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0");
             });
 
             services.AddHttpClient<GoogleAnalyticsService>("nbu", client =>
