@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalyticsPushApp", "GoogleAnalyticsPushApp\GoogleAnalyticsPushApp.csproj", "{29F60DF5-CC82-4FFA-8E60-E54BF0342CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29F60DF5-CC82-4FFA-8E60-E54BF0342CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F60DF5-CC82-4FFA-8E60-E54BF0342CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F60DF5-CC82-4FFA-8E60-E54BF0342CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F60DF5-CC82-4FFA-8E60-E54BF0342CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12EB2AA4-4E9A-4933-968D-DCC8375B618E}
+	EndGlobalSection
+EndGlobal
